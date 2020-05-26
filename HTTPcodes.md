@@ -46,7 +46,7 @@ TODO: Learn why, how, and when these are used
 ## 404 - Not Found
 - Trying to access nonexistent resources
  
->5xx Server Error
+> 5xx Server Error
 
 - Unknown bug/error while handling the request
 - Ex. Database is down
