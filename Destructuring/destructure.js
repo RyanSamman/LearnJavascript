@@ -4,7 +4,8 @@ let obj = {
     "test": "test",
     "a": "b",
     "c": {
-        "d": "e"
+        "d": "e",
+        "idk": "what else to put"
     }
 }
 
@@ -22,14 +23,24 @@ let a, b, rest
 console.log(`a: ${a}; b: ${b}; rest: ${rest1}`)
 
 // ~ Object destructuring
+console.log("Object Destructuring:")
 
-let {array, a:alpha, m:missing="Default", ...rest2} = obj
+let { array, a: alpha, m: missing = "Default", ...rest2 } = obj
 
 // ${} doesnt convert objects into string form
 console.log(`array:`, array)
+
+// Renaming a to alpha
 console.log(`alpha: ${alpha}`)
+
+// Renaming m to missing and putting a default value;
+// If no default value is given & it is not inside the destructured object,
+// the value will be 'undefined'
 console.log(`missing: ${missing}`)
+
+// Rest of the variables
 console.log(`rest:`, rest2)
 
 // Tip: Numbers and strings have different colors
-console.log([1,2,3,4], "1")
+console.log([1, 2, 3, 4], "1")
+

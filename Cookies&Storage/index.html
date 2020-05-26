@@ -2,10 +2,18 @@
 <html lang="en">
 
 <head>
-    <script src="cookies.js"></script>
+    <script defer src="cookies.js" typ></script>
     <!--
-    <script src="sessionstorage.js"></script>
-    <script src="localstorage.js"></script>
+        Putting async inside the <script> tag will allow the HTML
+            and script files to load asyncronously; and then
+            - the first <script> to complete downloading - 
+            will be run first, stopping the HTML from loading further
+            (if it hasnt fully loaded yet)
+            The scripts are run in order of which has loaded first
+        
+        defer makes the <script> start downloading as soon as it is reached,
+            however, it is not run until all the HTML has downloaded.
+            The order of scripts run are in the order placed
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +21,7 @@
 </head>
 
 <body>
-    <button onpres></button>
+
 </body>
 
 </html>

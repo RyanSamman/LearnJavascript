@@ -4,8 +4,6 @@
 
 Usually not used when making APIs and Websites
 
-TODO: Learn why, how, and when these are used
-
 > 2xx - Success
 
 ## 200 - OK
@@ -50,8 +48,6 @@ TODO: Learn why, how, and when these are used
 
 - Unknown bug/error while handling the request
 - Ex. Database is down
-
-
 
 [Reference Website](https://www.restapitutorial.com/httpstatuscodes.html)
 
