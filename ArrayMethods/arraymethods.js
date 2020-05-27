@@ -48,6 +48,20 @@ newArr = arr.filter((value, index, array) => {
 
 console.log("\n(filter)ed array for only even values", newArr)
 
+// Ex #2: Seeing if nested object has wanted price
+const items = [
+    { name: 'Bike', price: 100 }, 
+    { name: 'TV', price: 200 },
+    { name: 'Album', price: 10 },
+    { name: 'Book', price: 5 }
+]
+
+const filteredItems = items.filter((item) => {
+    return item.price <= 100
+})
+
+console.log("\nFiltered to items with price > 100:", filteredItems)
+
 // every
 // Tests if all items return true 
 let result = arr.every((value, index, array) => {
