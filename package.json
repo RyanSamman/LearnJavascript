@@ -1,0 +1,17 @@
+{
+  "name": "learnjavascript",
+  "version": "1.0.0",
+  "description": "Created to learn the ins and outs of Javascript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanSamman/LearnJavascript.git"
+  },
+  "author": "RyanSamman",
+  "bugs": {
+    "url": "https://github.com/RyanSamman/LearnJavascript/issues"
+  },
+  "homepage": "https://github.com/RyanSamman/LearnJavascript#readme",
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
